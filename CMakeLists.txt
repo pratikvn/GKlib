@@ -42,6 +42,8 @@ else()
   set(GKLIB_LIBRARY_TYPE STATIC)
 endif(SHARED)
 
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
 #-------------------------------------------------------------------------------
 # LIBRARY configuration
 #-------------------------------------------------------------------------------
